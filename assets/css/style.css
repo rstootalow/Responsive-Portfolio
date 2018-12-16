@@ -262,6 +262,11 @@ input[type=submit] {
 
   /* CONTACT HTML 640 STYLING */
 
+  #contact-section {
+    width: 95%;
+    margin-left: 2.5%;
+  }
+
   #contact-form li {
     list-style-type: none;
   }
