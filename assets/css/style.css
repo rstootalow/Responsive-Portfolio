@@ -250,6 +250,11 @@ input[type=submit] {
     margin-top: 40px;
   }
 
+  .auth-image {
+    float: none;
+    width: 100%;
+  }
+
 }
 
 /* 768 px max-width */
