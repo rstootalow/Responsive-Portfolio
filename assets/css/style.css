@@ -248,7 +248,7 @@ input[type=submit] {
   nav {
     margin: 0 auto;
     padding: 10px;
-    width: 100%;
+    width: 76%;
   }
 
   .main-section {
@@ -266,6 +266,11 @@ input[type=submit] {
     list-style-type: none;
   }
 
+/* PORTFOLIO STYLING 640PX */
+    #portfolio-content {
+      width: 95%;
+      margin-left: 2.5%;
+  }
 }
 
 /* 768 px max-width */
