@@ -239,6 +239,7 @@ input[type=submit] {
 
   #logo {
     width: 100%;
+    margin: 0;
   }
 
   header {
@@ -276,6 +277,10 @@ input[type=submit] {
       width: 95%;
       margin-left: 2.5%;
   }
+
+  .work {
+    margin-left: 20%;
+  }
 }
 
 /* 768 px max-width */
@@ -303,3 +308,26 @@ input[type=submit] {
 }
 
 /* 980px max width */
+
+/* PORTFOLIO STYLING */
+
+@media screen and (max-width: 980px) {
+  #logo {
+    margin-left: 2.5%;
+    padding: 1px;
+  }
+
+  nav  {
+    margin-right: 2%;
+  }
+
+  .main-section {
+    width: 60%;
+    margin-left: 2%;
+  }
+
+  #portfolio-content {
+    width: 95%;
+    margin-left: 2.5%;
+  }
+}
