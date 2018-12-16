@@ -221,6 +221,12 @@ input[type=submit] {
 /* 640 px max-width */
 
 @media screen and (max-width: 640px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
   body {
     background: url("../images/concrete_seamless.png");
   }
@@ -229,11 +235,19 @@ input[type=submit] {
     width: 100%;
   }
 
+  header {
+    position: static;
+  }
+
   nav {
     margin: 0 auto;
     display: block;
-    padding: 20px;
+    padding: 10px;
     width: 78%;
+  }
+
+  .main-section {
+    margin-top: 40px;
   }
 
 }
