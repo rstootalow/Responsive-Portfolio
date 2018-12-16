@@ -280,6 +280,26 @@ input[type=submit] {
 
 /* 768 px max-width */
 
+@media screen and (max-width: 768px) {
+  #logo {
+    margin-left: 2%;
+  }
 
+  nav  {
+    margin-right: 2%;
+  }
+
+  #contact-section {
+    width: 95%;
+    margin-left: 2.5%;
+  }
+
+  #portfolio-content {
+    width: 95%;
+    margin-left: 2.5%;
+  }
+
+
+}
 
 /* 980px max width */
